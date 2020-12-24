@@ -1,0 +1,80 @@
+body {
+  background: #fdb827;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.holderHeadline {
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  font-size: 2.4vw;
+  font-weight: bold;
+  font-family: 'Andika New Basic', sans-serif;
+  color: #6464ff;
+}
+
+.appContainer  {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+div label {
+  padding: 0.5vw;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.holder {
+  border-radius: 5px;
+  width: 50vw;
+}
+
+.feel, .zip, .entry {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#generate {
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 2%;
+  width: 50vw;
+  font-weight: 600;
+  background-color: black;
+  color: #ffffff;
+}
+
+#generate:hover {
+  background-color: rgb(97, 97, 97);
+  color: #fdb827;
+}
+
+#date {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#temp {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#content {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.title {
+  font-size: 24px;
+}
